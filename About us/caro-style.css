@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.person-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.csc {
+    height: 500px;
+    width: 380px;   
+    border: 1px solid #000;  
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#person-image {
+    background-image: url(caro-images/n4.JPG);
+    height: 380px;
+    max-width: 350px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    margin-top:  15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+}
+
+#person-image:hover {
+    box-shadow: 8px 8px 15px rgba(87, 81, 81, 0.5); 
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#person-details h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 450;
+    font-size: 30px;
+    transform: 0.5s ease all;
+}
+
+#person-details h2 {
+    font-family: 'Roboto';
+    font-weight: 450;
+    color: rgb(140, 16, 16);
+    font-size: 20px;
+    text-align: center;
+    transform: 0.5s ease all;
+}
+
+svg {
+    fill: black;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+svg:hover {
+    fill: #7a0a0a;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .person-container {
+        margin-left: 10px;
+        gap: 5px;
+    }
+    
+    .csc {
+        height: 400px;
+        width: 280px; 
+    }
+
+    #person-image {
+        width: 250px;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
